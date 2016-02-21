@@ -728,7 +728,7 @@ Do you want to take a loan worth {1} to avoid going bankrupt?</Item>
 		<Item Name="NoBugs">No bugs to fix</Item>
 		<Item Name="StillBugs">Fixed {0} bugs</Item>
 		<Item Name="ContractState">{0} months left - Goal: {1}%</Item>
-		<Item Name="ReleaseMarketingHint">Do you want to start marketing for {0} now?
+		<Item Name="ReleaseMarketingHint">Do you want to start a marketing campaign for {0} now?
 Marketing is crucial for your products' success.
 You can start a marketing campaign after releasing a product at any time by clicking the "Your Releases" button</Item>
 	</WorkItems>
@@ -980,29 +980,11 @@ License costs: {2}
 Recommended team size: {8}</Item>
 		<Item Name="Available contracts">Available contracts</Item>
 		<Item Name="Finished contracts">Finished contracts</Item>
-		<Item Name="ContractResultBreakdown">Income: {0}
-Income for accepting: {1}
-Bug penalty: {2}
-Late penalty: {3}
-Quality penalty: {4}
-Cancel penalty: {5}
-Net profit: {6}
-Delivered {7}</Item>
 		<Item Name="ContractEarly">{0} month(s) early</Item>
 		<Item Name="ContractLate">{0} month(s) too late</Item>
 		<Item Name="ContractOnTime">on time</Item>
 		<Item Name="CloneToolTitle">Clone tool</Item>
 		<Item Name="CloneToolDesc">Use this to clone the currently selected rooms</Item>
-		<Item Name="ContractDetailsNew">Company: {0}
-Scope: {1}
-Recommended team size: {9}
-Time-limit: {2} month(s)
-Artists: {8}
-Required quality: {3}
-Upfront: {4}
-When done: {5}
-Penalty: -{6}
-Cost per bug: -{7}</Item>
 		<Item Name="ActionRoomUnpair">Unassign rooms</Item>
 		<Item Name="ActionRoomPair">Assign room</Item>
 		<Item Name="Hire IT-support">Hire IT-support</Item>
@@ -1110,16 +1092,12 @@ I'm very sorry for the inconvenience.</Item>
 		<Item Name="WindowPref">Window preferences</Item>
 		<Item Name="Reset">Reset</Item>
 		<Item Name="Upcoming releases">Upcoming releases</Item>
-		<Item Name="UpcomingRelDesc">See a list of announced releases from your competitors</Item>
+		<Item Name="UpcomingRelDesc">See a list of announced releases from your competitors.</Item>
 		<Item Name="Close all windows">Close all windows</Item>
 		<Item Name="CloseAllWindowWarning">Are you sure you want to close all windows?</Item>
 		<Item Name="Only sequels">Only sequels</Item>
 		<Item Name="Select fallback">Select fallback</Item>
 		<Item Name="Fallback">Fallback</Item>
-		<Item Name="AutoDevProjDetails">Current project details:
-Name: {0}
-Type: {1}
-Scope: {2}</Item>
 		<Item Name="Project">Project</Item>
 				<Item Name="NewWorkDealDetail">Type: {0}
 Software: {1}
@@ -1138,7 +1116,7 @@ Expires: {3}</Item>
 		<Item Name="AngleSnapDesc">Change furniture snapping angle</Item>
 		<Item Name="DoubleGridSize">Double grid size</Item>
 		<Item Name="HalveGridSize">Halve grid size</Item>
-		<Item Name="ChangeGridAnchor">Anchor grid to an object in the world</Item>
+		<Item Name="ChangeGridAnchor">Anchor grid to an object or wall in the world</Item>
 		<Item Name="ResetGrid">Reset grid</Item>
 		<Item Name="ActionMergeRooms">Merge rooms</Item>
 		<Item Name="Turn furniture clockwise">Turn furniture clockwise</Item>
@@ -1176,7 +1154,7 @@ Make sure you have permission to delete this file on your computer</Item>
 		<Item Name="Specialization interview">Specialization interview</Item>
 		<Item Name="Personality interview">Personality interview</Item>
 		<Item Name="SSAA">SSAA</Item>
-		<Item Name="SSAAHint">Super-sampling antialiasing renders the game in double resolution to smooth out edges as much as possible</Item>
+		<Item Name="SSAAHint">Super-sampling antialiasing renders the game in double resolution to smooth out edges as much as possible (Requires a high-end graphics card)</Item>
 		<Item Name="Event">Event</Item>
 		<Item Name="InsuranceDescription">Life insurance per employee: {0}
 Health insurance per employee: {1}
@@ -1207,5 +1185,172 @@ Add temperature regulators and remember windows leak</Item>
 		<Item Name="Selection">Selection</Item>
 		<Item Name="Select multiple">Select multiple</Item>
 	</Alpha6.21>
+	<Alpha6.22>
+		<Item Name="FurnitureInLimitRoomWarning">An employee has been assigned a(n) {0} in a room that the employee is not allowed in</Item>
+		<Item Name="EmployeeArtWorkWarning">{0} is working on art for {1} but is not competent in art and might delay the release and ruin the art</Item>
+		<Item Name="EmployeeProgrammingWorkWarning">{0} is programming for {1} but is not competent with code and might delay the release and add bugs</Item>
+		<Item Name="EmployeeDesignWorkWarning">{0} is designing {1} but is not competent with design work and might delay the release and add errors</Item>
+		<Item Name="RoadBusSignError">You can't build road in front of the bus stop</Item>
+	</Alpha6.22>
+	<Alpha7.1>
+		<Item Name="Units">Units</Item>
+		<Item Name="Perception">Perception</Item>
+		<Item Name="License cost">License cost</Item>
+		<Item Name="Gross">Gross</Item>
+		<Item Name="Price">Price</Item>
+		<Item Name="Active users">Active users</Item>
+		<Item Name="Category">Category</Item>
+		<Item Name="ETA">ETA</Item>
+		<Item Name="Artists needed">Artists needed</Item>
+		<Item Name="Expected interest">Expected interest</Item>
+		<Item Name="Consumer reach">Consumer reach</Item>
+		<Item Name="License costs">License costs</Item>
+		<Item Name="Recommended team size">Recommended team size</Item>
+		<Item Name="Traded">Traded</Item>
+		<Item Name="Fans">Fans</Item>
+		<Item Name="FansInfo">Fans have no direct impact on your sales, but having more fans will make it easier to gain market recoginition.</Item>
+		<Item Name="Business reputation">Business reputation</Item>
+		<Item Name="BusinessRepInfo">This is your reputation in the software industry. Each star will affect the quality of employee applicants, contracts, deals and distribution.</Item>
+		<Item Name="PricingButtonTip">Click here to use the suggested price for this software</Item>
+		<Item Name="Market recognition">Market recognition</Item>
+		<Item Name="MarketRecognitionInfo">Your market recognition controls how well known you are in each software market and therefore how well your products will sell in each category</Item>
+		<Item Name="Bandwidth">Bandwidth</Item>
+		<Item Name="Reflections">Reflections</Item>
+		<Item Name="ActionChange Room Team">Switch team</Item>
+		<Item Name="Screen Space Reflections">Screen Space Reflections</Item>
+		<Item Name="SSRHint">Makes most shiny surfaces reflect their surroundings (Requires a high-end graphics card)</Item>
+		<Item Name="Please wait">Please wait</Item>
+		<Item Name="PicTakingError">Error taking picture. Please pick a smaller resolution.</Item>
+		<Item Name="Performance tip">Performance tip</Item>
+		<Item Name="Hover for details">Hover for details</Item>
+		<Item Name="PerformanceTipDetail">The performance of most of the effects depend on your screen resolution and not the complexity of the objects on the screen. SSAA will double the performance impact of most of the effects.</Item>
+		<Item Name="Impact">Impact</Item>
+		<Item Name="Very high">Very high</Item>
+		<Item Name="High">High</Item>
+		<Item Name="Low">Low</Item>
+		<Item Name="DevMarketingHint">Do you want to start a marketing campaign for {0} now?
+Marketing your product while it is under development will generate hype, which affects your launch sales and your competitors</Item>
+		<Item Name="MarketingError">There is already a marketing campaign for this product</Item>
+		<Item Name="KeyBindingWarning">"{0}" is already bound to "{1}", are you sure you want to rebind?</Item>
+		<Item Name="Request">Request</Item>
+		<Item Name="Retail price">Retail price</Item>
+		<Item Name="Priority">Priority</Item>
+		<Item Name="Change software name">Change software name</Item>
+		<Item Name="MarketingProduct">Marketing {0}</Item>
+		<Item Name="Time v Innovation">Time v Innovation</Item>
+		<Item Name="Time v quality">Time v quality</Item>
+		<Item Name="Budget v quality">Budget v quality</Item>
+		<Item Name="AutoDevProjDetails2">Current project details:
+Name: {0}
+Type: {1}
+Category: {2}</Item>
+		<Item Name="OldSaveGameError">The game you tried to load was from an older version of Software Inc. ({0}), which is no longer compatible with the version you are using ({1})</Item>
+	</Alpha7.1>
+	<Alpha7.2>
+		<Item Name="FXAA">FXAA</Item>
+		<Item Name="FXAADetails">Fast Approximate Anti-Aliasing, basic anti-aliasing. Keeps edges from looking pixelated</Item>
+		<Item Name="SMAA">SMAA</Item>
+		<Item Name="SMAADetails">Subpixel Morphological Anti-Aliasing, more advanced anti-aliasing. Keeps edges from looking pixelated</Item>
+		<Item Name="SMAADetailsError">Subpixel Morphological Anti-Aliasing, not supported on DirectX9</Item>
+		<Item Name="SSAADetails">Super-Sampling Anti-Aliasing. Renders the game in higher resolution to smooth out edges as much as possible (Requires a high-end graphics card)</Item>
+		<Item Name="WorkItemCancelConf">Are you sure you want to cancel {0}?</Item>
+		<Item Name="Shadow quality">Shadow quality</Item>
+		<Item Name="Units sold">Units sold</Item>
+	</Alpha7.2>
+	<Alpha7.3>
+		<Item Name="Off">Off</Item>
+		<Item Name="ActionResetDefaultStyle">Reset to default style</Item>
+		<Item Name="ComputerWarning">A computer is getting very slow and needs to be looked at by IT support staff</Item>
+		<Item Name="NotificationGotoHint">Click to view</Item>
+		<Item Name="Auto role">Auto role</Item>
+	</Alpha7.3>
+	<Alpha7.4>
+		<Item Name="Topdown view">Topdown view</Item>
+		<Item Name="ServerDealDetail2">Type: {0}
+Income per Mbps per month: {1}
+Current bandwidth usage: {2}
+Maximum bandwidth usage: {3}</Item>
+	</Alpha7.4>
+	<Alpha7.5>
+		<Item Name="WorkPriorityHint">Higher number means higher priority</Item>
+		<Item Name="ShiftFurnHint">Hold shift to place multiple</Item>
+		<Item Name="IPDealActionBuyFail">{0} wants {1}, which you cannot afford it</Item>
+		<Item Name="MarketingAmount1">None</Item>
+		<Item Name="MarketingAmount2">Sparse</Item>
+		<Item Name="MarketingAmount3">Prominent</Item>
+		<Item Name="MarketingAmount4">Widespread</Item>
+		<Item Name="MarketingAmount5">Unavoidable</Item>
+		<Item Name="ActionSelectBuildingFloor">Select building floor</Item>
+		<Item Name="PathwayBlocked">Something is blocking this path</Item>
+		<Item Name="Sweep selection">Sweep selection</Item>
+	</Alpha7.5>
+	<FurnitureColorNames>
+		<Item Name="FCBase">Base</Item>
+		<Item Name="FCFrame">Frame</Item>
+		<Item Name="FCCasing">Casing</Item>
+		<Item Name="FCShade">Shade</Item>
+		<Item Name="FCLighting">Lighting</Item>
+		<Item Name="FCFabric">Fabric</Item>
+		<Item Name="FCBackground">Background</Item>
+		<Item Name="FCBlades">Blades</Item>
+		<Item Name="FCHandle">Handle</Item>
+		<Item Name="FCPot">Pot</Item>
+		<Item Name="FCPad">Pad</Item>
+		<Item Name="FCBox">Box</Item>
+		<Item Name="FCMonitor">Monitor</Item>
+		<Item Name="FCKeys">Keys</Item>
+		<Item Name="FCShelf">Shelf</Item>
+		<Item Name="FCSeat">Seat</Item>
+		<Item Name="FCSupport">Support</Item>
+		<Item Name="FCHologram">Hologram</Item>
+		<Item Name="FCBack">Back</Item>
+	</FurnitureColorNames>
+	<Alpha7.6>
+		<Item Name="Minigame">Minigame</Item>
+		<Item Name="MinigameLifeError">You have already wasted all your lives</Item>
+		<Item Name="Lives left">Lives left</Item>
+		<Item Name="Multiplier">Multiplier</Item>
+		<Item Name="MinigameHint">Only recommended for small projects when starting out</Item>
+		<Item Name="UMLGameHint">Click to start
+		
+Connect the boxes until all boxes in a group show 0
+
+You can't connect the same boxes twice
+
+You can make loops
+
+Don't let a box get to the center</Item>
+		<Item Name="CodeGameHint">Click to start
+
+Type the words on the screen
+
+You have to type the entire word once you start typing, you can't delete a letter
+
+When you complete a word, your score multiplier increases
+
+The multiplier resets when you mistype a letter or when a word reaches the bottom
+
+Don't let the words reach the bottom</Item>
+		<Item Name="OwnLicense">Use own licenses</Item>
+	</Alpha7.6>
+	<Alpha7.7>
+		<Item Name="Hyping">Hyping</Item>
+		<Item Name="Fulfilling contract">Fulfilling contract</Item>
+		<Item Name="Time-limit">Time-limit</Item>
+		<Item Name="Required quality">Required quality</Item>
+		<Item Name="Upfront">Upfront</Item>
+		<Item Name="When done">When done</Item>
+		<Item Name="Penalty">Penalty</Item>
+		<Item Name="Cost per bug">Cost per bug</Item>
+		<Item Name="Bug penalty">Bug penalty</Item>
+		<Item Name="Late penalty">Late penalty</Item>
+		<Item Name="Quality penalty">Quality penalty</Item>
+		<Item Name="Cancel penalty">Cancel penalty</Item>
+		<Item Name="Net profit">Net profit</Item>
+		<Item Name="Delivered">Delivered</Item>
+		<Item Name="Max bandwidth">Max bandwidth</Item>
+		<Item Name="Look again">Look again</Item>
+		<Item Name="LookAgainPrompt">Are you sure you want to look again? It will cost {0}</Item>
+	</Alpha7.7>
 </UI>
 

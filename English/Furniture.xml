@@ -11,6 +11,14 @@
 		<Name>Glass Table</Name>
 		<Description>Enjoy the view of your feet while you work</Description>
 	</Furniture>
+	<Furniture Name="2m End Table">
+		<Name>2m End Table</Name>
+		<Description>Approximately round</Description>
+	</Furniture>
+	<Furniture Name="3m End Table">
+		<Name>3m End Table</Name>
+		<Description>Even more round</Description>
+	</Furniture>
 	<Furniture Name="Cheap Chair">
 		<Name>Cheap Chair</Name>
 		<Description>Uncomfortable plastic chair</Description>
@@ -54,6 +62,14 @@
 	<Furniture Name="Old Computer">
 		<Name>Old Computer</Name>
 		<Description>More pixels than you can count on one hand!</Description>
+	</Furniture>
+	<Furniture Name="90s Computer">
+		<Name>90s Computer</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Laptop">
+		<Name>Laptop</Name>
+		<Description></Description>
 	</Furniture>
 	<Furniture Name="Modern Computer">
 		<Name>Modern Computer</Name>
@@ -142,6 +158,22 @@
 	<Furniture Name="Server Rack">
 		<Name>Server Rack</Name>
 		<Description>If one computer is not enough</Description>
+	</Furniture>
+	<Furniture Name="Phone">
+		<Name>Phone</Name>
+		<Description>Who you gonna call? Support!</Description>
+	</Furniture>
+	<Furniture Name="Drawing Tablet">
+		<Name>Drawing Tablet</Name>
+		<Description>So much easier than manually inputting pixel coordinates</Description>
+	</Furniture>
+	<Furniture Name="Calculator">
+		<Name>Calculator</Name>
+		<Description>Calculators are a programmer's best friend</Description>
+	</Furniture>
+	<Furniture Name="Inbox">
+		<Name>Inbox</Name>
+		<Description>Help keep your employees organized, especially helpful for people who haven't heard of e-mail</Description>
 	</Furniture>
 	<Segment Name="Standard door">
 		<Name>Standard door</Name>

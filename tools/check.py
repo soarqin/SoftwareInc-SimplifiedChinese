@@ -14,6 +14,8 @@ def checkFurniture(e1, e2):
 
 def checkSoftware(e1, e2):
     for ele1 in list(e1):
+        if "Name" not in ele1.attrib:
+            continue
         txt = ele1.attrib["Name"]
         found = False
         for ele2 in e2.findall(ele1.tag):
@@ -28,7 +30,7 @@ def checkSoftware(e1, e2):
             continue
         ele4 = ele2.find("Features")
         if ele4 == None:
-            print "    " + ele1.tag + "> " + ele3.tag
+            print "    " + ele1.tag + "(" + ele1.attrib["Name"] + ") > " + ele3.tag
             continue
         for ele5 in list(ele3):
             txt = ele5.attrib["Name"]
@@ -38,7 +40,23 @@ def checkSoftware(e1, e2):
                     found = True
                     break
             if not found:
-                print "    " + ele1.tag + "> " + ele3.tag + "> " + txt
+                print "    " + ele1.tag + "(" + ele1.attrib["Name"] + ") > " + ele3.tag + "> " + txt
+        ele3 = ele1.find("Categories")
+        if ele3 == None:
+            continue
+        ele4 = ele2.find("Categories")
+        if ele4 == None:
+            print "    " + ele1.tag + "(" + ele1.attrib["Name"] + ") > " + ele3.tag
+            continue
+        for ele5 in list(ele3):
+            txt = ele5.attrib["Name"]
+            found = False
+            for ele6 in ele4.findall(ele5.tag):
+                if ele6.attrib["Name"] == txt:
+                    found = True
+                    break
+            if not found:
+                print "    " + ele1.tag + "(" + ele1.attrib["Name"] + ") > " + ele3.tag + "> " + txt
 
 def checkUI(e1, e2):
     for ele1 in list(e1):

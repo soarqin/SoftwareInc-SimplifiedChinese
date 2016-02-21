@@ -11,6 +11,14 @@
 		<Name>玻璃桌</Name>
 		<Description>一边工作一边享受绝佳的双脚观察视角</Description>
 	</Furniture>
+	<Furniture Name="2m End Table">
+		<Name>2m End Table</Name>
+		<Description>Approximately round</Description>
+	</Furniture>
+	<Furniture Name="3m End Table">
+		<Name>3m End Table</Name>
+		<Description>Even more round</Description>
+	</Furniture>
 	<Furniture Name="Cheap Chair">
 		<Name>便宜的塑料椅</Name>
 		<Description>让人难受的便宜塑料椅</Description>
@@ -54,6 +62,14 @@
 	<Furniture Name="Old Computer">
 		<Name>老式电脑</Name>
 		<Description>一只手便能数尽的像素点！</Description>
+	</Furniture>
+	<Furniture Name="90s Computer">
+		<Name>90s Computer</Name>
+		<Description></Description>
+	</Furniture>
+	<Furniture Name="Laptop">
+		<Name>Laptop</Name>
+		<Description></Description>
 	</Furniture>
 	<Furniture Name="Modern Computer">
 		<Name>现代电脑</Name>
@@ -142,6 +158,22 @@
 	<Furniture Name="Server Rack">
 		<Name>服务器机架</Name>
 		<Description>如果一台电脑不够用...</Description>
+	</Furniture>
+	<Furniture Name="Phone">
+		<Name>Phone</Name>
+		<Description>Who you gonna call? Support!</Description>
+	</Furniture>
+	<Furniture Name="Drawing Tablet">
+		<Name>Drawing Tablet</Name>
+		<Description>So much easier than manually inputting pixel coordinates</Description>
+	</Furniture>
+	<Furniture Name="Calculator">
+		<Name>Calculator</Name>
+		<Description>Calculators are a programmer's best friend</Description>
+	</Furniture>
+	<Furniture Name="Inbox">
+		<Name>Inbox</Name>
+		<Description>Help keep your employees organized, especially helpful for people who haven't heard of e-mail</Description>
 	</Furniture>
 	<Segment Name="Standard door">
 		<Name>普通门</Name>

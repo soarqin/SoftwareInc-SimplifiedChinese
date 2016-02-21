@@ -1,4 +1,5 @@
 <Software>
+	<CategoryDefault>Default</CategoryDefault>
 	<Software Name="Operating System">
 		<Name>操作系统</Name>
 		<Description>在 Software Inc 游戏中，操作系统是软件中规模最大的一项.
@@ -55,6 +56,20 @@
 				<Description>就像8-bit音频，但它有更多的Bit :-)</Description>
 			</Feature>
 		</Features>
+		<Categories>
+			<Category Name="Computer">
+				<Name>Computer</Name>
+				<Description>For the table</Description>
+			</Category>
+			<Category Name="Console">
+				<Name>Console</Name>
+				<Description>For the TV</Description>
+			</Category>
+			<Category Name="Phone">
+				<Name>Phone</Name>
+				<Description>For the pocket</Description>
+			</Category>
+		</Categories>
 	</Software>
 	<Software Name="Visual Tool">
 		<Name>可视化工具</Name>
@@ -73,6 +88,7 @@
 				<Description>这样用户就可以轻松地查看 3D 模型人是否穿内衣了</Description>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Audio Tool">
 		<Name>音频工具</Name>
@@ -91,6 +107,7 @@
 				<Description>让音乐版权变得更加廉价</Description>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Game Engine">
 		<Name>游戏引擎</Name>
@@ -133,6 +150,7 @@
 				<Description>有手柄会让很多游戏玩起来更舒服，当然射击游戏除外</Description>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Game">
 		<Name>游戏</Name>
@@ -179,6 +197,30 @@
 				<Description>有手柄会让很多游戏玩起来更舒服，当然射击游戏除外</Description>
 			</Feature>
 		</Features>
+		<Categories>
+			<Category Name="RPG">
+				<Name>RPG</Name>
+				<Description>Role Playing Game</Description>
+			</Category>
+			<Category Name="Adventure">
+				<Name>Adventure</Name>
+			</Category>
+			<Category Name="Simulation">
+				<Name>Simulation</Name>
+				<Description>You're playing one!</Description>
+			</Category>
+			<Category Name="Sports">
+				<Name>Sports</Name>
+			</Category>
+			<Category Name="RTS">
+				<Name>RTS</Name>
+				<Description>Real Time Strategy</Description>
+			</Category>
+			<Category Name="FPS">
+				<Name>FPS</Name>
+				<Description>First Person Shooter</Description>
+			</Category>
+		</Categories>
 	</Software>
 	<Software Name="Webbased Game">
 		<Name>网页游戏</Name>
@@ -202,6 +244,26 @@
 				<Name>大型多人在线</Name>
 			</Feature>
 		</Features>
+		<Categories>
+			<Category Name="RPG">
+				<Name>RPG</Name>
+				<Description>Role Playing Game</Description>
+			</Category>
+			<Category Name="Adventure">
+				<Name>Adventure</Name>
+			</Category>
+			<Category Name="Simulation">
+				<Name>Simulation</Name>
+				<Description>You're playing one!</Description>
+			</Category>
+			<Category Name="Sports">
+				<Name>Sports</Name>
+			</Category>
+			<Category Name="RTS">
+				<Name>RTS</Name>
+				<Description>Real Time Strategy</Description>
+			</Category>
+		</Categories>
 	</Software>
 	<Software Name="Antivirus">
 		<Name>杀毒软件</Name>
@@ -210,6 +272,10 @@
 			<Feature Name="File scan">
 				<Name>文件搜索</Name>
 				<Description>扫描可疑或不确定的文件</Description>
+			</Feature>
+			<Feature Name="User interface">
+				<Name>User interface</Name>
+				<Description>Make it easy for the user to manage their virus handling</Description>
 			</Feature>
 			<Feature Name="Firewall">
 				<Name>防火墙</Name>
@@ -228,6 +294,7 @@
 				<Description>自动保持你的用户刷新对病毒的定义</Description>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Logistics Application">
 		<Name>逻辑软件</Name>
@@ -250,6 +317,7 @@
 				<Description>你们想到一群狐狸围在一直狐狸身上交尾的图了么</Description>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Website">
 		<Name>网页</Name>
@@ -276,6 +344,7 @@
 				<Description>把用户的密码明文保存在这里</Description>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Game Assets">
 		<Name>游戏素材</Name>
@@ -300,6 +369,7 @@
 				<Name>3D 模型</Name>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Embedded System">
 		<Name>嵌入式系统</Name>
@@ -325,6 +395,7 @@
 				<Name>网络</Name>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Feature Name="QA">
 		<Name>QA</Name>

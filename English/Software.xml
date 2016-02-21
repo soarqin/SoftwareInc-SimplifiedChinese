@@ -1,4 +1,5 @@
 <Software>
+	<CategoryDefault>Default</CategoryDefault>
 	<Software Name="Operating System">
 		<Name>Operating System</Name>
 		<Description>The Operating System is the largest piece of software in Software Inc.
@@ -55,6 +56,20 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Description>Like 8-bit audio, but with more bit</Description>
 			</Feature>
 		</Features>
+		<Categories>
+			<Category Name="Computer">
+				<Name>Computer</Name>
+				<Description>For the table</Description>
+			</Category>
+			<Category Name="Console">
+				<Name>Console</Name>
+				<Description>For the TV</Description>
+			</Category>
+			<Category Name="Phone">
+				<Name>Phone</Name>
+				<Description>For the pocket</Description>
+			</Category>
+		</Categories>
 	</Software>
 	<Software Name="Visual Tool">
 		<Name>Visual Tool</Name>
@@ -72,6 +87,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Name>3D editor</Name>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Audio Tool">
 		<Name>Audio Tool</Name>
@@ -87,16 +103,17 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Name>Music editor</Name>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Game Engine">
 		<Name>Game Engine</Name>
 		<Description>The game engine is what powers a game. It contains everything needed for a game, except for the creativity.</Description>
 		<Features>
-			<Feature Name="2D rendering">
-				<Name>2D rendering</Name>
-			</Feature>
 			<Feature Name="Text-based">
 				<Name>Text-based</Name>
+			</Feature>
+			<Feature Name="2D rendering">
+				<Name>2D rendering</Name>
 			</Feature>
 			<Feature Name="3D rendering">
 				<Name>3D rendering</Name>
@@ -120,6 +137,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Name>Joystick support</Name>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Game">
 		<Name>Game</Name>
@@ -158,6 +176,30 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Name>Joystick support</Name>
 			</Feature>
 		</Features>
+		<Categories>
+			<Category Name="RPG">
+				<Name>RPG</Name>
+				<Description>Role Playing Game</Description>
+			</Category>
+			<Category Name="Adventure">
+				<Name>Adventure</Name>
+			</Category>
+			<Category Name="Simulation">
+				<Name>Simulation</Name>
+				<Description>You're playing one!</Description>
+			</Category>
+			<Category Name="Sports">
+				<Name>Sports</Name>
+			</Category>
+			<Category Name="RTS">
+				<Name>RTS</Name>
+				<Description>Real Time Strategy</Description>
+			</Category>
+			<Category Name="FPS">
+				<Name>FPS</Name>
+				<Description>First Person Shooter</Description>
+			</Category>
+		</Categories>
 	</Software>
 	<Software Name="Webbased Game">
 		<Name>Webbased Game</Name>
@@ -181,6 +223,26 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Name>MMO</Name>
 			</Feature>
 		</Features>
+		<Categories>
+			<Category Name="RPG">
+				<Name>RPG</Name>
+				<Description>Role Playing Game</Description>
+			</Category>
+			<Category Name="Adventure">
+				<Name>Adventure</Name>
+			</Category>
+			<Category Name="Simulation">
+				<Name>Simulation</Name>
+				<Description>You're playing one!</Description>
+			</Category>
+			<Category Name="Sports">
+				<Name>Sports</Name>
+			</Category>
+			<Category Name="RTS">
+				<Name>RTS</Name>
+				<Description>Real Time Strategy</Description>
+			</Category>
+		</Categories>
 	</Software>
 	<Software Name="Antivirus">
 		<Name>Antivirus</Name>
@@ -188,6 +250,10 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		<Features>
 			<Feature Name="File scan">
 				<Name>File scan</Name>
+			</Feature>
+			<Feature Name="User interface">
+				<Name>User interface</Name>
+				<Description>Make it easy for the user to manage their virus handling</Description>
 			</Feature>
 			<Feature Name="Firewall">
 				<Name>Firewall</Name>
@@ -205,6 +271,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Description>Automagically keep your user's virus definitions up to date</Description>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Logistics Application">
 		<Name>Logistics Application</Name>
@@ -223,6 +290,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Name>Third-party integration</Name>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Website">
 		<Name>Website</Name>
@@ -244,6 +312,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Name>Database</Name>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Game Assets">
 		<Name>Game Assets</Name>
@@ -268,6 +337,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Name>3D models</Name>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Software Name="Embedded System">
 		<Name>Embedded System</Name>
@@ -292,6 +362,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 				<Name>Networking</Name>
 			</Feature>
 		</Features>
+		<Categories></Categories>
 	</Software>
 	<Feature Name="QA">
 		<Name>QA</Name>
